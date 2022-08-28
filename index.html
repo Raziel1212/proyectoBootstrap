@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cdcb995457.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Proyecto Bootstrap</title>
+  </head>
+  <body>
+    <header class="container-fluid text-center">
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="imgLogo" src="assets/img/logo-white.png" alt="logo blanco empresa" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  ><strong>Home</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><strong>Features</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><strong>Pricing</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-muted"
+                  ><strong>Disabled</strong></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container-fluid">
+      <article class="row mt-3">
+        <section class="col-sm-12 col-md-4">
+          <div class="card">
+            <img
+              src="./assets/img/libros.jpg"
+              class="img-fluid card-img-top"
+              alt="biblioteca con libros"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Librería San Agustín</h5>
+              <p class="card-text">
+                Grandes ofertas en cientos de libros todos los miércoles
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Barrio Franklin 1414, Santiago, RM
+              </p>
+              <hr />
+              <footer class="container">
+                <section class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h4">$15.000</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h3 text-success"><strong>$5.990</strong></p>
+                  </div>
+                </section>
+              </footer>
+            </div>
+          </div>
+        </section>
+
+        <section class="col-sm-12 col-md-4">
+          <div class="card">
+            <img
+              src="./assets/img/pizzaTradicional.jpg"
+              class="img-fluid card-img-top"
+              alt="Pizza familiar tradicional"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Pizza familiar</h5>
+              <p class="card-text">
+                LLévate 1 pizza tradicional, tamaño familiar + papas fritas +
+                bebida 1/5 Lts.
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Santiago Centro 1420, Santiago, RM
+              </p>
+              <hr />
+              <footer class="container">
+                <section class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h4">$25.000</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h3 text-success"><strong>$14.990</strong></p>
+                  </div>
+                </section>
+              </footer>
+            </div>
+          </div>
+        </section>
+
+        <section class="col-sm-12 col-md-4">
+          <div class="card">
+            <img
+              src="./assets/img/cursoIngles.jpg"
+              class="img-fluid card-img-top"
+              alt="clases de inglés"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Clases inglés</h5>
+              <p class="card-text">
+                cursos de inglés nivel A1, A2, B1,B2 con 50% dcto por mes
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Moneda 970, Santiago, RM
+              </p>
+              <hr />
+              <footer class="container">
+                <section class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h4">$200.000</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h3 text-success"><strong>$100.000</strong></p>
+                  </div>
+                </section>
+              </footer>
+            </div>
+          </div>
+        </section>
+      </article>
+    </section>
+
+    <section class="container-fluid">
+      <article class="row mt-3">
+        <section class="col-sm-12 col-md-4">
+          <div class="card">
+            <img
+              src="./assets/img/colacionSaludable.jpeg"
+              class="img-fluid card-img-top"
+              alt="promo colación saludable"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Colaciones Saudables</h5>
+              <p class="card-text">
+                Incluye sandwich a elección + mix de frutas + galletas sin sal +
+                jugo natural a elección
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Pto. Puente 689, Santiago, RM
+              </p>
+              <hr />
+              <footer class="container">
+                <section class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h4">$11.000</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h3 text-success"><strong>$4.990</strong></p>
+                  </div>
+                </section>
+              </footer>
+            </div>
+          </div>
+        </section>
+        <section class="col-sm-12 col-md-4">
+          <div class="card">
+            <img
+              src="./assets/img/mim.jpg"
+              class="card-img-top img-fluid"
+              alt="juego museo interactivo mirador"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Visita Museo Interactivo Mirador</h5>
+              <p class="card-text">
+                Durante todo el invierno, ven y disfruta de las atracciones del
+                museo a mitad de precio
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Avda. Pta. Arenas 6711, La Granja, RM
+              </p>
+              <hr />
+              <footer class="container">
+                <section class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h4">$6.000</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h3 text-success"><strong>$3.000</strong></p>
+                  </div>
+                </section>
+              </footer>
+            </div>
+          </div>
+        </section>
+        <section class="col-sm-12 col-md-4">
+          <div class="card">
+            <img
+              src="./assets/img/villarrica.jpg"
+              class="card-img-top img-fluid"
+              alt="Villarrica"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Villarrica</h5>
+              <p class="card-text">
+                De 2 a 3 noches + alojamiento + desayuno + estacionamiento
+              </p>
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Villarrica, Araucanía
+              </p>
+              <hr />
+              <footer class="container">
+                <section class="row">
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h4">$199.990</p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <p class="h3 text-success"><strong>$120.000</strong></p>
+                  </div>
+                </section>
+              </footer>
+            </div>
+          </div>
+        </section>
+      </article>
+    </section>
+    <section
+      class="container-fluid bg-success text-center text-white pt-5 pb-5 mt-3"
+    >
+      <form>
+        <h3>Recibe cupones en tu correo</h3>
+        <div class="mb-3">
+          <input
+            class="form-control me-2 col-12"
+            type="text"
+            placeholder="Nombre"
+            aria-label="Search"
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            class="form-control me-2 col-12"
+            type="email"
+            placeholder="Correo Electrónico"
+            aria-label="Search"
+          />
+        </div>
+
+        <div class="mb-3">
+          <button
+            class="btn btn-success col-1 bg-light text-dark"
+            type="submit"
+          >
+            <strong>Enviar</strong>
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="mb-3 text-center">
+      <img id="imgLogo"
+        class="img-fluid"
+        src="assets/img/logo-black.png"
+        alt="logo negro empresa"
+      />
+      <p class="text-muted">
+        2018 Cuppon Latam. Todos los registros reservados
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
